@@ -13,7 +13,7 @@ Diffbook is for computational researchers and scientists. It keeps a daily recor
 - Local folders, whether or not they are git repositories
 - Remote folders over SSH
 - Change summaries for R, Python, shell, Markdown, and notebooks
-- Optional local AI with Ollama, or your own API key
+- Optional local AI with Ollama
 - In-app updates
 
 ## Install
@@ -26,17 +26,21 @@ Open the disk image and drag Diffbook into Applications.
 
 ## Plans
 
-**Free.** No account. Daily notebook, projects, local folders, and summaries with Ollama or your own API key. Nothing is synced.
+**Free.** No account. Daily notebook, projects, local folders, and summaries with Ollama. Nothing is synced.
 
-**Cloud, $9 a month.** Sync across your Macs: the notes, summaries, and project details described under Privacy. Ollama and your own API key still work.
+**Cloud, $9 a month.** Sync across your Macs: the notes, summaries, and project details described under Privacy. Ollama still works.
 
 **Cloud + AI, $18 a month.** Everything in Cloud, plus Ask DiffBook.
+
+## Roadmap
+
+Bring-your-own API keys (OpenAI and Anthropic) are in the app, but that path is not tested yet. Leave those keys unused for now. Summaries on this Mac should use Ollama.
 
 ## Privacy
 
 Diffbook does not require an account. Until you sign in, nothing is synced.
 
-Local models run through Ollama on your Mac. That request is not sent to any AI company or to us. If you instead pick a cloud model and enter your own API key, that request goes to the provider you chose.
+Local models run through Ollama on your Mac. That request is not sent to any AI company or to us. If you instead pick a cloud model and enter your own API key, that request goes to the provider you chose. That path is not tested yet.
 
 Cloud sync is optional. It stays off until you sign in on a Cloud plan. When it is on, daily notes and the written summaries are uploaded to our server. The actual content of your scripts and notebooks is not uploaded. Diffbook syncs:
 
