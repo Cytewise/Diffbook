@@ -38,7 +38,7 @@ Diffbook does not require an account. Until you sign in, nothing is synced.
 
 Local models run through Ollama on your Mac. That request is not sent to any AI company or to us. If you instead pick a cloud model and enter your own API key, that request goes to the provider you chose.
 
-Cloud sync is optional. It stays off until you sign in on a Cloud plan. When it is on, daily notes and the written summaries are uploaded to our server. They are not end-to-end encrypted, so we can read them. The text of your scripts and notebooks is not uploaded. Diffbook syncs:
+Cloud sync is optional. It stays off until you sign in on a Cloud plan. When it is on, daily notes and the written summaries are uploaded to our server. The actual content of your scripts and notebooks is not uploaded. Diffbook syncs:
 
 - Project and group names, descriptions, and the folder you connected (a local path or an `ssh://` address, not the files in that folder)
 - Daily notes
