@@ -26,7 +26,7 @@ Open the disk image and drag Diffbook into Applications.
 
 ## Plans
 
-**Free.** No account. Daily notebook, projects, local folders, and summaries with Ollama. Nothing is synced.
+**Free.** Daily notebook, projects, local folders, and summaries with Ollama. Nothing is synced.
 
 **Cloud, $9 a month.** Sync across your Macs: the notes, summaries, and project details described under Privacy. Ollama still works.
 
@@ -34,7 +34,7 @@ Open the disk image and drag Diffbook into Applications.
 
 ## Roadmap
 
-Bring-your-own API keys (OpenAI and Anthropic) are in the app, but that path is not tested yet. Leave those keys unused for now. Summaries on this Mac should use Ollama.
+Bring-your-own API keys (OpenAI and Anthropic) are in the app, but that path is not tested yet. Leave those keys unused for now.
 
 ## Privacy
 
@@ -52,7 +52,7 @@ Cloud sync is optional. It stays off until you sign in on a Cloud plan. When it 
 
 Diffbook does not sync file contents, file history, per-file diffs, SSH passwords, or API keys. A remote folder is read over SSH onto your Mac so it can be summarized there. Those bytes are not part of sync.
 
-## This Mac
+## System Requirements
 
 Apple Silicon (M1 or later) and macOS 12 or later. Diffbook itself does not need a separate graphics card.
 
